@@ -5,7 +5,7 @@
 }*/
 
 #containerHeader{
-	height: 75px;
+	height: 100px;
 	background: #ffffff;
 	border-bottom: 2px solid #cccccc;
 	position: relative;
@@ -15,7 +15,7 @@
 	position: relative;
 	float: left;
 	width: 350px;
-	height: 75px;
+	height: 100px;
 	background: #4aaaa5;
 	vertical-align: middle;
 	text-align: center;
@@ -26,7 +26,7 @@
 h1 {
 	color: #ffffff;
 	font-family: 'Georgia', Times, "Times New Roman", serif;
-
+	font-size: 28px;
 }
 
 .navBar {
@@ -351,8 +351,8 @@ h3 {
 		background: yellow;
 		position: relative;
 		float: left;
-		width: 280px;
-		height: 75px;
+		width: 275px;
+		height: 100px;
 		/*background: #4aaaa5;*/
 		vertical-align: middle;
 		text-align: center;
@@ -413,23 +413,23 @@ h3 {
 
 	#githubIcon {
 		float: left;
-		height: 50%;
-		width: 30%;
-		margin: 0px 0px 20px 5%;
+		height: 60px;
+		width: 60px;
+		margin: 0px 0px 5% 5%;
 	}
 
 	#linkedinIcon {
 		float: left;
-		height: 50%;
-		width: 30%;
-		margin: 0px 5% 20px 5%;
+		height: 60px;
+		width: 60px;
+		margin: 0px 5% 5% 5%;
 	}
 
 	#stackoverflowIcon {
 		float: left;
-		height: 50%;
-		width: 30%;
-		margin: 0px 5% 20px 0px;
+		height: 60px;
+		width: 60px;
+		margin: 0px 5% 5% 0px;
 	}
 
 }
@@ -437,11 +437,254 @@ h3 {
 @media screen and (max-width: 768px) {
 	#headerName{
 		background: red;
+		margin-left: 5%;
+		width: 350px;
+		height: 100px;
+	}
+
+	#containerHeader{
+	height: 100px;
+	background: #ffffff;
+	border-bottom: 2px solid #cccccc;
+	position: relative;
+	}
+
+	#headerLinkAbout {
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	float: right;
+	margin-top: 5%;
+	padding-right: 2%;
+	vertical-align: middle;
+	text-align: center;
+	color: #777777;
+	text-decoration: none;
+
+
+	}	
+
+	#headerLinkPortfolio {
+		font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+		float: right;
+		margin-top:5%;
+		padding-left: 2%;
+		padding-right: 2%;
+		border-left: solid 1px #cccccc;
+		vertical-align: middle;
+		text-align: center;
+		color: #777777;
+		text-decoration: none;
+
+	}
+
+	#headerLinkContact {
+		font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+		float: right;
+		margin-top:5%;
+		margin-right: 2%;
+		padding-left: 2%;
+		border-left: solid 1px #cccccc;
+		vertical-align: middle;
+		text-align: center;
+		color: #777777;
+		text-decoration: none;
+
+	}
+
+	#profilePic {
+		float: left;
+		margin: 0 10px 2px 10px;
+		height: 225px; 
+		width: 300px;
+
+		}
+
+	#divMainAbout {
+
+		width: 90%;
+		height: 450px;
+		background: white;
+		border: 1px;
+		border-color: #dddddd;
+		float: left;
+		margin-left: 5%;
+		margin-top: 10px;
+		margin-right: 5%;
+		margin-bottom: 5px;
+		position: relative;
+		overflow: auto;
+
+		}
+
+	#firstParagraph {
+
+		color: #777777;
+		font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+		font-size: 1.5vh;
+		margin-right: 5%;
+		margin-left: 5%;
+		line-height: 2vh;
+		}
+
+	#secondParagraph {
+		color: #777777;
+		font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+		font-size: 1.5vh;
+		margin: 5%;
+		line-height: 2vh;
+		}
+
+
+	.divConnect {
+		background: white;
+		clear: both;
+		margin-top: 5px;
+		margin-right: 5%;
+		margin-left: 5%;
+		width: 90%;
+		height: 140px;
+		position: relative;
+		}
+
+	#githubIcon {
+		float: left;
+		height: 60px;
+		width: 60px;
+		margin: 0px 0px 5% 5%;
+	}
+
+	#linkedinIcon {
+		float: left;
+		height: 60px;
+		width: 60px;
+		margin: 0px 5% 5% 5%;
+	}
+
+	#stackoverflowIcon {
+		float: left;
+		height: 60px;
+		width: 60px;
+		margin: 0px 5% 5% 0px;
 	}
 }
 
 @media screen and (max-width: 640px) {
 	#headerName{
 		background: green;
+		margin-left: 0;
+		width: 100%;
+		height: 50px;
+		position: absolute;
+		left: 0;
+		top: 0;
+		display: inline-block;
 	}
+
+	#containerHeader{
+		height: 100px;
+		width: 100%;
+		background: #ffffff;
+		border-bottom: 2px solid #cccccc;
+		position: relative;
+	
+	}
+
+	.navBar {
+		position: absolute;
+		height: 50px;
+		top: 50%;
+		right:25%;
+		left:25%;
+		
+}
+	#headerLinkAbout {
+		font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+		margin-top: 10%;
+		padding-right: 2%;
+		vertical-align: middle;
+		text-align: center;
+		color: #777777;
+		text-decoration: none;
+		float: right;
+		
+		position: relative;
+
+
+	}	
+
+	#headerLinkPortfolio {
+		font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+		margin-top:10%;
+		padding-left: 2%;
+		padding-right: 2%;
+		border-left: solid 1px #cccccc;
+		vertical-align: middle;
+		text-align: center;
+		color: #777777;
+		text-decoration: none;
+		float: right;
+		
+		position:relative;
+		
+	}
+
+	#headerLinkContact {
+		font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+		margin-top:10%;
+		margin-right: 2%;
+		padding-left: 2%;
+		border-left: solid 1px #cccccc;
+		vertical-align: middle;
+		text-align: center;
+		color: #777777;
+		text-decoration: none;
+		
+		float:right;
+		position:relative;
+
+	}
+	
+	#profilePic {
+		float: left;
+		margin: 0 10% 2px 10%;
+		height: 50%; 
+		width: 80%;
+
+		}
+
+	#divMainAbout {
+
+		width: 90%;
+		height: 450px;
+		background: white;
+		border: 1px;
+		border-color: #dddddd;
+		float: left;
+		margin-left: 5%;
+		margin-top: 10px;
+		margin-right: 5%;
+		margin-bottom: 5px;
+		position: relative;
+		overflow: auto;
+
+		}
+
+	#firstParagraph {
+
+		color: #777777;
+		font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+		font-size: 1.5vh;
+		margin-right: 5%;
+		margin-left: 5%;
+		line-height: 2vh;
+		}
+
+	#secondParagraph {
+		color: #777777;
+		font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+		font-size: 1.5vh;
+		margin: 5%;
+		line-height: 2vh;
+		}
+
+
 }
